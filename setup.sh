@@ -113,6 +113,15 @@ echo -e "${YELLOW}Installing DKN Compute Node...${NC}"
 cd "$HOME"
 curl -fsSL https://dria.co/launcher | bash
 
+# Add dria binary to PATH for current session
+echo -e "${YELLOW}Adding Dria Compute Launcher to PATH for this session...${NC}"
+export PATH="$PATH:/root/.dria/bin"
+
+# Start the Dria node
+echo -e "${YELLOW}Starting Dria Compute Node...${NC}"
+dkn-compute-launcher start
+
+
 echo -e "${GREEN}Installation completed.${NC}"
 
 echo -e "${BANNER}==================================="
