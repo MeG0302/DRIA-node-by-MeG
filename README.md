@@ -48,15 +48,18 @@ apt install git -y && apt install sudo -y && sudo apt install git -y && git clon
 ## ⚡ Choose models to run
 
 1) Select ollama press enter 
+
 ![image](https://github.com/user-attachments/assets/bbcca883-a514-4dc1-a111-aae6bcd6162c)
 
 2) Choose these models (for selecting model use "SPACEBAR button" and after selection is over press "ENTER button")
+
 ![image](https://github.com/user-attachments/assets/cf21a0e3-7d9e-4839-adfd-d591650a3ce3)
 
 >Select those i have selected 
 
 3) Select 'Go back'and press enter 
 4) Paste you (EVM) wallet private key 
+
 ![Screenshot 2025-05-18 141142](https://github.com/user-attachments/assets/41351cd7-8ede-4743-a4ae-69eba93933f4)
 
 DONE!
